@@ -20,5 +20,19 @@ form.addEventListener('submit', function(event) {
     }
 
     console.log(user);
-})
+
+    const output = document.getElementById('output');
+    output.innerHTML = `
+    <p>    
+        Ismi: ${name.value}
+        Adresi: ${adres.value}
+        Telefon raqami: ${number.value}
+        Email: ${email.value}
+        Parol: ${pasword.value}
+        Parolni tasdiqlash: ${confPasword.value}
+    </p>
+    `
+
+    form.reset()
+});
 
