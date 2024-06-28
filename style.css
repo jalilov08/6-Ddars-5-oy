@@ -37,9 +37,10 @@ body {
 
 #checkbox {
     margin-left: 20px;
+    display: flex;
 }
 
-#btn {
+button {
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #4B72C2;
@@ -55,4 +56,17 @@ body {
 hr {
     width: 1000px;
     color: #3a3939;
+}
+
+#output {
+    margin-left: 300px;
+    margin-right: 200px;
+    color: #fff;
+}
+
+#ui {
+    margin-left: 300px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
